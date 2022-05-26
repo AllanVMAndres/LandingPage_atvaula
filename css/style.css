@@ -19,7 +19,7 @@ header {
 }
 
 #seccond-color{
-    background-color: #e4e4e491;
+    background-color: #44ab0091;
     padding: 40px;
 }
 
@@ -74,7 +74,7 @@ nav:after {
 }
 
 .nav-container li a:hover {
-	color: #3381f3;
+	color: #44ab00;
 }
 
 /* banner */
@@ -154,8 +154,7 @@ nav:after {
 
 /*lista*/
 #list-table{
-    padding: 10px;
-    background-color: #e4e4e491;                 
+    padding: 10px     
 }
 
 #list-table ul{
@@ -184,8 +183,8 @@ nav:after {
 }
 
 .box{
-    width: 200px;
-    height: 250px;
+    width: 220px;
+    height: 280px;
     margin: 30px;
     align-items: center;
     border: 1px solid #0c0211;
@@ -194,7 +193,7 @@ nav:after {
 
 .box img{
     max-width: 100%;
-    height: 250px;
+    height: 280px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -208,7 +207,7 @@ nav:after {
 .box .text-box{
     position: relative;
     text-align: center;
-    margin-top: -250px;
+    margin-top: -280px;
     visibility: hidden;
     transition: 0.3s ease-in-out;
 }
@@ -226,10 +225,17 @@ nav:after {
 }
 
 .box p{
-    color: #ffffff
+    color: #ffffff;
+    font-size: larger;
 }
 
 /*hover descarte*/
+#center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #discart-container{
     width: 350px;
     display: inline-block;
@@ -239,7 +245,7 @@ nav:after {
 
 #discart-container h2{
     position: relative;
-    background-color: #27a74d;
+    background-color: #44ab00;
     text-align: center;
     padding: 25px 0;
     color: #ffffff;
@@ -249,10 +255,11 @@ nav:after {
 
 .text-content{
     position: relative;
-    background-color: #b4deb0;
+    background-color: #7dbd53c0;
+    font-size: larger;
     color: #ffffff;
     border-radius: 5px;
-    transform: translateY(-95%) scaleY(0);
+    transform: translateY(-82%) scaleY(0);
     transition: 1s;
 }
 
@@ -281,7 +288,7 @@ nav:after {
     width: 400px;
     object-fit: cover;
 	border-radius: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -290,9 +297,9 @@ nav:after {
     float: left;
     padding-left: 50px;
     height: 400px;
-    width: 500px;
+    width: 700px;
     text-align: left;
-    font-size: larger;
+    font-size: 20px;
 }
 
 
@@ -316,7 +323,7 @@ nav:after {
     width: 400px;
     object-fit: cover;
 	border-radius: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
     padding-right: 20px;
 }
 
@@ -324,15 +331,14 @@ nav:after {
     float: right;
     padding-right: 50px;
     height: 400px;
-    width: 500px;
+    width: 700px;
     text-align: right;
-    font-size: larger;
+    font-size: 20px;
 }
 
 /*desafios lista*/
 #list-cha{
-    padding: 10px;
-    background-color: #e4e4e491;                 
+    padding: 10px 
 }
 
 #list-cha ul{
@@ -351,8 +357,7 @@ nav:after {
 }
 
 #list-cha-2{
-    padding: 10px;
-    background-color: #e4e4e491;                 
+    padding: 10px              
 }
 
 #list-cha-2 ul{
@@ -371,8 +376,7 @@ nav:after {
 }
 
 #list-cha-3{
-    padding: 10px;
-    background-color: #e4e4e491;                 
+    padding: 10px                
 }
 
 #list-cha-3 ul{
