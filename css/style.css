@@ -336,6 +336,119 @@ nav:after {
     font-size: 20px;
 }
 
+/*desafios animacao*/
+#list-manu-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manu-pri-1{
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #44ab00;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    position: relative;
+    animation-name: pri-um;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-inline-start: 3vw;
+    margin-inline-end: 3vw;
+}
+
+#manu-pri-1 p{
+    font-size: larger;
+    text-align: center;
+}
+
+@keyframes pri-um{
+    0%{top:0px;}
+    50%{top:20px;}
+    100%{top:0px}
+}
+
+#list-manu-1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.p-pri-1{
+    padding-top: 50px;
+}
+
+.p-pri-2{
+    padding-top: 70px;
+}
+
+.p-pri-3{
+    padding-top: 40px;
+}
+
+
+#list-manu-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manu-pri-2{
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #347e03;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    position: relative;
+    animation-name: pri-um;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-inline-start: 3vw;
+    margin-inline-end: 3vw;
+}
+
+#manu-pri-2 p{
+    font-size: larger;
+    text-align: center;
+}
+
+#list-manu-2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#list-manu-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manu-pri-3{
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #204d02;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    position: relative;
+    animation-name: pri-um;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-inline-start: 3vw;
+    margin-inline-end: 3vw;
+}
+
+#manu-pri-3 p{
+    font-size: larger;
+    text-align: center;
+}
+
 /*desafios lista*/
 #list-cha{
     padding: 10px 
